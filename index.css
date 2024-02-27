@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.bg {
+    background-color: #f2f2f2;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 650;
+}
+
+.box li {
+    display: block;
+}
+
+.box li a {
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+}
+
+.box li i {
+    font-size: 12px;
+}
+
+.hover {
+    font-size: 15px;
+    color: #2d2c2c;
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset 0px 0px 20px 20px rgb(255, 255, 255);
+    animation: demo 0.2s ease-in-out;
+    border-radius: 5px;
+    padding: 0;
+    z-index: 1;
+}
+
+@keyframes demo {
+    0% {
+        transform: translateX(0px);
+        transform: translateY(0px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(-0.4px);
+        transform: translateY(-0.4px);
+        opacity: 1;
+    }
+}
+
+.box li:hover>ul {
+    display: block;
+}
+
+.abc {
+    display: none;
+    left: 100%;
+    position: absolute;
+    top: 35%;
+    background-color: rgb(248, 255, 255);
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 20px 20px rgb(255 255 255 / 100%);
+    animation: aaa 0.5s linear;
+    padding: 0;
+    z-index: 1;
+}
+
+@keyframes aaa {
+    0% {
+        transform: translateX(0);
+        transform: translateY(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(4px);
+        transform: translateY(-0.4px);
+        opacity: 1;
+    }
+}
+
+.div {
+    width: 100%;
+    height: 60px;
+}
+
+.img img {
+    margin-bottom: 30px;
+}
+
+.text span {
+    font-size: 11px;
+    font-family: 'Inter', sans-serif;
+    color: rgb(72 70 70 / 60%);
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.cen {
+    margin: 0 5px 0 5px;
+    font-size: 19px;
+}
+
+.text h2 {
+    font-size: 44px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+}
+
+.text p {
+    font-size: 15px;
+    font-family: 'EB Garamond', serif;
+    color: rgb(44, 43, 43);
+}
+
+.pic img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.btn9 {
+    font-size: 15px;
+    font-family: 'EB Garamond', serif;
+}
+
+.photo img {
+    margin-bottom: 30px;
+}
+
+.text .small {
+    font-size: 19px;
+    margin: 15px 0;
+}
+
+.style {
+    font-family: 'EB Garamond', serif;
+}
+
+.rang {
+    color: rgb(44, 43, 43);
+}
+
+.before {
+    position: absolute;
+    z-index: 1;
+    font-size: 5rem;
+    left: -10px;
+    top: -20px;
+    font-weight: 500;
+    margin: 20px 1px 0 0;
+    color: #cfcfcf54;
+}
+
+.font span {
+    font-size: 13px;
+}
+
+.bl {
+    border-bottom: 2px solid black;
+}
+
+.btn1 img {
+    width: 100%;
+}
+
+.text .tsize {
+    font-size: 20px;
+}
+
+.text h6 {
+    font-size: 14px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 200;
+}
+
+.padding {
+    padding-bottom: 150px;
+}
+
+.bgblack {
+    background-color: #1c1c1cf0;
+    color: white;
+    padding: 100px 10px 100px 0;
+}
+
+.white h5 {
+    font-size: 22px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 200;
+}
+
+.white span:hover {
+    color: rgba(228, 179, 20, 0.633);
+    transition: 0.5s;
+    border-color: rgba(228, 179, 20, 0.633) !important;
+}
+
+.white p {
+    font-family: 'EB Garamond', serif;
+    color: rgb(193, 193, 193);
+}
+
+.white li {
+    font-family: 'EB Garamond', serif;
+    color: rgb(193, 193, 193);
+    transition: all 0.5s;
+}
+
+.white li:hover {
+    transform: translateX(10px);
+    color: rgba(228, 179, 20, 0.633);
+}
+
+.white img {
+    width: 60px;
+}
+
+.last span {
+    font-size: 11px;
+    font-family: 'Inter', sans-serif;
+    color: rgb(193, 193, 193);
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.last:hover span {
+    color: rgba(228, 179, 20, 0.633);
+    transition: 0.5s;
+}
+
+.last h6 {
+    font-family: 'EB Garamond', serif;
+    color: rgb(193, 193, 193);
+    font-size: small;
+}
+
+.bgdark {
+    background-color: black;
+    color: rgb(193, 193, 193);
+    padding: 50px 0;
+}
+
+.cr span {
+    font-family: 'EB Garamond', serif;
+}
+
+.down span {
+    font-size: small;
+    font-family: 'EB Garamond', serif;
+}
+
+.down strong {
+    font-family: 'EB Garamond', serif;
+    font-size: 13px;
+}
+
+.ss h6 i {
+    text-align: center;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(34, 33, 33);
+    border-radius: 50%;
+    line-height: 40px;
+
+}
+
+.ss h6 i:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+.carousel-caption {
+    right: 54%;
+    left: 11%;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+}
+
+.w-100 {
+    height: 500px;
+}
+
+.d-block {
+    display: block;
+}
+
+.dog {
+    display: block;
+}
+
+@media (min-width:280px) {
+    .carousel-caption {
+        right: 100px;
+        left: 100px;
+    }
+
+    .dog {
+        display: none;
+    }
+}
+
+@media (min-width: 576px) {
+    .white h5 {
+        padding-top: 84px;
+    }
+
+    .text-c {
+        text-align: center;
+    }
+
+    .just-c {
+        justify-content: center;
+    }
+
+    .carousel-caption {
+        right: 100px;
+        left: 100px;
+    }
+
+    .dog {
+        display: none;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .carousel-caption {
+        right: 100px;
+        left: 100px;
+    }
+
+    .dog {
+        display: none;
+    }
+
+}
+
+
+@media (min-width: 992px) {
+    .dog {
+        display: block;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .carousel-caption {
+        right: 54%;
+        left: 11%;
+    }
+
+    .dog {
+        display: block;
+    }
+}
+
+
+@media (min-width: 1400px) {
+    .carousel-caption {
+        right: 54%;
+        left: 11%;
+    }
+
+    .dog {
+        display: block;
+    }
+}

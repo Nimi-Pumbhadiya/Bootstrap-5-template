@@ -1,0 +1,1259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>zenblog</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!-- header 1 -->
+    <div class="container-fluid bg">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <div class="col-4">
+              <h1>ZenBlog</h1>
+            </div>
+            <div
+              class="collapse navbar-collapse col-4 box"
+              id="navbarSupportedContent"
+            >
+              <div class="row">
+                <ul class="navbar-nav justify-content-center">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Blog</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Singal Post</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link active"
+                      href="#"
+                      id="navbarDropdown"
+                      aria-expanded="false"
+                    >
+                      Categories<i class="fa-solid fa-chevron-down ms-2"></i>
+                    </a>
+                    <ul class="hover" aria-labelledby="navbarDropdown">
+                      <li>
+                        <a class="dropdown-item m-2" href="#">Search Result</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item m-2" href="#">drop Down 1</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item m-2" href="#"
+                          >Deep Drop Down<i
+                            class="fa-solid fa-chevron-right ms-4"
+                          ></i
+                        ></a>
+                        <ul class="abc" aria-labelledby="navbarDropdown">
+                          <li>
+                            <a class="dropdown-item m-2" href="#"
+                              >Deep Drop Down 1</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item m-2" href="#"
+                              >Deep Drop Down 2</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item m-2" href="#"
+                              >Deep Drop Dowm 2</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item m-2" href="#"
+                              >Deep Drop Down 4</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item m-2" href="#"
+                              >Deep Drop Down 5</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a class="dropdown-item m-2" href="#">Drop Down 2</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item m-2" href="#">Drop Down 3 </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item m-2" href="#">Drop Down 4</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link disabled active"
+                      href="#"
+                      tabindex="-1"
+                      aria-disabled="true"
+                      >About</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link disabled active"
+                      href="#"
+                      tabindex="-1"
+                      aria-disabled="true"
+                      >Contact</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-4 dog">
+              <form class="d-flex justify-content-end align-items-center">
+                <i class="fa-brands fa-facebook ps-3"></i>
+                <i class="fa-brands fa-twitter ps-3"></i>
+                <i class="fa-brands fa-instagram ps-3"></i>
+                <i class="fa-brands fa-linkedin ps-3"></i>
+              </form>
+            </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="div"></div>
+
+    <!-- slide  -->
+    <div class="container pb-5">
+      <div
+        id="carouselExampleCaptions "
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://bootstrapmade.com/demo/templates/ZenBlog/assets/img/post-slide-2.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-block d-md-block">
+              <h2 class="text-dark">
+                17 Pictures of Medium Length Hair in Layers That Will Inspire
+                Your New Haircut
+              </h2>
+              <p class="text-dark btn9">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem
+                neque est mollitia! Beatae minima assumenda repellat harum vero,
+                officiis ipsam magnam obcaecati cumque maxime inventore
+                repudiandae quidem necessitatibus rem atque.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://bootstrapmade.com/demo/templates/ZenBlog/assets/img/post-slide-4.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-block d-md-block">
+              <h2>9 Half-up/half-down Hairstyles for Long and Medium Hair</h2>
+              <p class="btn9">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem
+                neque est mollitia! Beatae minima assumenda repellat harum vero,
+                officiis ipsam magnam obcaecati cumque maxime inventore
+                repudiandae quidem necessitatibus rem atque.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://bootstrapmade.com/demo/templates/ZenBlog/assets/img/post-slide-1.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-block d-md-block">
+              <h2>The Best Homemade Masks for Face (keep the Pimples Away)</h2>
+              <p class="btn9">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Accusantium, animi praesentium eius provident, reprehenderit nam
+                cum mollitia ad quos adipisci cupiditate quidem corrupti dolore
+                nesciunt omnis enim autem obcaecati reiciendis!
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://bootstrapmade.com/demo/templates/ZenBlog/assets/img/post-slide-3.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-block d-md-block">
+              <h2>
+                13 Amazing Poems from Shel Silverstein with Valuable Life
+                Lessons
+              </h2>
+              <p class="btn9">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas
+                unde nostrum doloribus labore error ipsam obcaecati recusandae
+                quae eligendi aliquam, ducimus blanditiis sint, impedit
+                cupiditate doloremque itaque nihil repudiandae debitis!
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- card -->
+
+    <div class="container-fluid" data-aos="fade-up">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="img">
+              <img
+                src="https://bootstrapmade.com/demo/templates/ZenBlog/assets/img/post-landscape-1.jpg"
+                width="100%"
+                alt=""
+              />
+            </div>
+            <div class="text">
+              <span>CULTURE</span>
+              <span class="cen">.</span>
+              <span>Jul 5th '22</span>
+              <h2 class="text-dark">
+                11 Work From Home Part-Time Jobs You Can Do Now
+              </h2>
+              <p class="mb-4 d-block">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero
+                temporibus repudiandae, inventore pariatur numquam cumque
+                possimus exercitationem? Nihil tempore odit ab minus eveniet
+                praesentium, similique blanditiis molestiae ut saepe
+                perspiciatis officia nemo, eos quae cumque. Accusamus fugiat
+                architecto rerum animi atque eveniet, quo, praesentium
+                dignissimos
+              </p>
+              <div class="d-flex align-items-center">
+                <div class="pic">
+                  <img
+                    src="https://bootstrapmade.com/demo/templates/ZenBlog/assets/img/person-1.jpg"
+                    width="100%"
+                    alt=""
+                  />
+                </div>
+                <div class="name">
+                  <h6 class="ms-3">Cameron Williamson</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-12 col-sm-12">
+            <div class="row">
+              <div class="col-lg-4 col-md-12 col-sm-12 border-start border-end">
+                <div class="photo">
+                  <img
+                    src="https://bootstrapmade.com/demo/templates/ZenBlog/assets/img/post-landscape-2.jpg"
+                    width="100%"
+                    alt=""
+                  />
+                  <div class="text">
+                    <span>SPORT</span>
+                    <span class="cen">.</span>
+                    <span>Jul 5th '22</span>
+                    <h2 class="text-dark small">
+                      Let’s Get Back to Work, New York
+                    </h2>
+                  </div>
+                </div>
+                <div class="photo">
+                  <img
+                    src="https://bootstrapmade.com/demo/templates/ZenBlog/assets/img/post-landscape-5.jpg"
+                    width="100%"
+                    alt=""
+                  />
+                  <div class="text">
+                    <span>FOOD </span>
+                    <span class="cen">.</span>
+                    <span>Jul 5th '22</span>
+                    <h2 class="text-dark small">
+                      How to Avoid Distraction and Stay Focused During Video
+                      Calls?
+                    </h2>
+                  </div>
+                </div>
+                <div class="photo">
+                  <img
+                    src="https://bootstrapmade.com/demo/templates/ZenBlog/assets/img/post-landscape-7.jpg"
+                    width="100%"
+                    alt=""
+                  />
+                  <div class="text">
+                    <span>DESIGN</span>
+                    <span class="cen">.</span>
+                    <span>Jul 5th '22</span>
+                    <h2 class="text-dark small">
+                      Why Craigslist Tampa Is One of The Most Interesting Places
+                      On the Web?
+                    </h2>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="photo">
+                  <img
+                    src="https://bootstrapmade.com/demo/templates/ZenBlog/assets/img/post-landscape-3.jpg"
+                    width="100%"
+                    alt=""
+                  />
+                  <div class="text">
+                    <span>BUSINESS</span>
+                    <span class="cen">.</span>
+                    <span>Jul 5th '22</span>
+                    <h2 class="text-dark small">
+                      6 Easy Steps To Create Your Own Cute Merch For Instagram
+                    </h2>
+                  </div>
+                </div>
+                <div class="photo">
+                  <img
+                    src="https://bootstrapmade.com/demo/templates/ZenBlog/assets/img/post-landscape-6.jpg"
+                    width="100%"
+                    alt=""
+                  />
+                  <div class="text">
+                    <span>TECH</span>
+                    <span class="cen">.</span>
+                    <span>Jul 5th '22</span>
+                    <h2 class="text-dark small">
+                      10 Life-Changing Hacks Every Working Mom Should Know
+                    </h2>
+                  </div>
+                </div>
+                <div class="photo">
+                  <img
+                    src="https://bootstrapmade.com/demo/templates/ZenBlog/assets/img/post-landscape-8.jpg"
+                    width="100%"
+                    alt=""
+                  />
+                  <div class="text">
+                    <span>TRAVEL</span>
+                    <span class="cen">.</span>
+                    <span>Jul 5th '22</span>
+                    <h2 class="text-dark small">
+                      5 Great Startup Tips for Female Founders
+                    </h2>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <ul class="list-group">
+                  <li class="list-group-item text-start">
+                    <h2 class="text-dark style">Trending</h2>
+                  </li>
+                  <li class="list-group-item">
+                    <span class="before">1</span>
+                    <h5 class="style m-2">
+                      The Best Homemade Masks for Face (keep the Pimples Away)
+                    </h5>
+                    <span class="style m-2 rang">Jane Cooper</span>
+                  </li>
+                  <li class="list-group-item">
+                    <span class="before">2</span>
+                    <h5 class="style m-2">
+                      17 Pictures of Medium Length Hair in Layers That Will
+                      Inspire Your New Haircut
+                    </h5>
+                    <span class="style m-2 rang">Wade Warren</span>
+                  </li>
+                  <li class="list-group-item">
+                    <span class="before">3</span>
+                    <h5 class="style m-2">
+                      13 Amazing Poems from Shel Silverstein with Valuable Life
+                      Lessons
+                    </h5>
+                    <span class="style m-2 rang">Esther Howard</span>
+                  </li>
+                  <li class="list-group-item">
+                    <span class="before">4</span>
+                    <h5 class="style m-2">
+                      9 Half-up/half-down Hairstyles for Long and Medium Hair
+                    </h5>
+                    <span class="style m-2 rang">Cameron Williamson</span>
+                  </li>
+                  <li class="list-group-item">
+                    <span class="before">5</span>
+                    <h5 class="style m-2">
+                      Life Insurance And Pregnancy: A Working Mom’s Guide
+                    </h5>
+                    <span class="style m-2 rang">Jenny Wilson</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- header 2 -->
+
+    <div class="container-fluid">
+      <div class="container bl mb-5">
+        <div class="row align-items-center">
+          <div class="col-6 text">
+            <h2 class="mb-1">Culture</h2>
+          </div>
+          <div class="col-6 font text-end mb-1">
+            <span class="border-bottom border-dark p-1">SEE ALL CULTURE</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- card 2 -->
+
+    <div class="container-fluid padding" data-aos="fade-up">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 col-md-12 col-sm-12">
+            <div class="row">
+              <div class="col-lg-9 col-md-12 col-sm-12 btn1">
+                <img
+                  src="https://bootstrapmade.com/demo/templates/ZenBlog/assets/img/post-landscape-6.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col-lg-3 col-md-12 col-sm-12 btn2">
+                <div class="text">
+                  <span>CULTURE</span>
+                  <span class="cen">.</span>
+                  <span>Jul 5th '22</span>
+                  <h2 class="text-dark small tsize">
+                    What is the son of Football Coach John Gruden, Deuce Gruden
+                    doing Now?
+                  </h2>
+                  <p class="mb-2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Distinctio placeat exercitationem magni voluptates dolore.
+                    Tenetur fugiat voluptates quas, nobis error deserunt aliquam
+                    temporibus sapiente, laudantium dolorum itaque libero eos
+                    deleniti?
+                  </p>
+                  <div class="d-flex align-items-center">
+                    <div class="pic">
+                      <img
+                        src="https://bootstrapmade.com/demo/templates/ZenBlog/assets/img/person-2.jpg"
+                        width="100%"
+                        alt=""
+                      />
+                    </div>
+                    <div class="name">
+                      <h6 class="ms-3">Wade Warren</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3 col-md-12 col-sm-12">
+                <div class="photo mt-4">
+                  <img
+                    src="https://bootstrapmade.com/demo/templates/ZenBlog/assets/img/post-landscape-1.jpg"
+                    width="100%"
+                    alt=""
+                  />
+                  <div class="text">
+                    <span>CULTURE</span>
+                    <span class="cen">.</span>
+                    <span>Jul 5th '22</span>
+                    <h2 class="text-dark small">
+                      11 Work From Home Part-Time Jobs You Can Do Now
+                    </h2>
+                    <h6 class="">Jenny Wilson</h6>
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Vero temporibus repudiandae, inventore pariatur numquam
+                      cumque possimu
+                    </p>
+                    <div class="btn3 border-bottom mb-3"></div>
+                    <div class="text">
+                      <span>CULTURE</span>
+                      <span class="cen">.</span>
+                      <span>Jul 5th '22</span>
+                      <h2 class="text-dark small">
+                        5 Great Startup Tips for Female Founders
+                      </h2>
+                      <h6 class="">Jenny Wilson</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-9 col-md-12 col-sm-12 btn1 mt-4">
+                <img
+                  src="https://bootstrapmade.com/demo/templates/ZenBlog/assets/img/post-landscape-2.jpg"
+                  class="mb-4"
+                  alt=""
+                />
+                <div class="text">
+                  <span>CULTURE</span>
+                  <span class="cen">.</span>
+                  <span>Jul 5th '22</span>
+                  <h2 class="text-dark small">
+                    How to Avoid Distraction and Stay Focused During Video
+                    Calls?
+                  </h2>
+                  <h6>Jenny Wilson</h6>
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Vero temporibus repudiandae, inventore pariatur numquam
+                    cumque possimus
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-12 col-sm-12">
+            <div class="text">
+              <span>CULTURE</span>
+              <span class="cen">.</span>
+              <span>Jul 5th '22</span>
+              <h2 class="text-dark small tsize">
+                How to Avoid Distraction and Stay Focused During Video Calls?
+              </h2>
+              <h6>Jenny Wilson</h6>
+              <div class="div border-bottom mb-3"></div>
+            </div>
+            <div class="text">
+              <span>CULTURE</span>
+              <span class="cen">.</span>
+              <span>Jul 5th '22</span>
+              <h2 class="text-dark small tsize">
+                How to Avoid Distraction and Stay Focused During Video Calls?
+              </h2>
+              <h6>Jenny Wilson</h6>
+              <div class="div border-bottom mb-3"></div>
+            </div>
+            <div class="text">
+              <span>CULTURE</span>
+              <span class="cen">.</span>
+              <span>Jul 5th '22</span>
+              <h2 class="text-dark small tsize">
+                How to Avoid Distraction and Stay Focused During Video Calls?
+              </h2>
+              <h6>Jenny Wilson</h6>
+              <div class="div border-bottom mb-3"></div>
+            </div>
+            <div class="text">
+              <span>CULTURE</span>
+              <span class="cen">.</span>
+              <span>Jul 5th '22</span>
+              <h2 class="text-dark small tsize">
+                How to Avoid Distraction and Stay Focused During Video Calls?
+              </h2>
+              <span class="style m-2 rang">Jenny Wilson</span>
+              <div class="div border-bottom mb-3"></div>
+            </div>
+            <div class="text">
+              <span>CULTURE</span>
+              <span class="cen">.</span>
+              <span>Jul 5th '22</span>
+              <h2 class="text-dark small tsize">
+                How to Avoid Distraction and Stay Focused During Video Calls?
+              </h2>
+              <h6>Jenny Wilson</h6>
+              <div class="div border-bottom mb-3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- header 3 -->
+
+    <div class="container-fluid">
+      <div class="container bl mb-5">
+        <div class="row align-items-center">
+          <div class="col-6 text">
+            <h2 class="mb-1">Business</h2>
+          </div>
+          <div class="col-6 font text-end mb-1">
+            <span class="border-bottom border-dark p-1">SEE ALL CULTURE</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- card 3 -->
+
+    <div class="conatiner-fluid" data-aos="fade-up">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-12 col-sm-12">
+            <div class="text">
+              <span>BUSINESS</span>
+              <span class="cen">.</span>
+              <span>Jul 5th '22</span>
+              <h2 class="text-dark small tsize">
+                How to Avoid Distraction and Stay Focused During Video Calls?
+              </h2>
+              <h6>Jenny Wilson</h6>
+              <div class="div border-bottom mb-3"></div>
+            </div>
+            <div class="text">
+              <span>BUSINESS</span>
+              <span class="cen">.</span>
+              <span>Jul 5th '22</span>
+              <h2 class="text-dark small tsize">
+                17 Pictures of Medium Length Hair in Layers That Will Inspire
+                Your New Haircut
+              </h2>
+              <h6>Jenny Wilson</h6>
+              <div class="div border-bottom mb-3"></div>
+            </div>
+            <div class="text">
+              <span>BUSINESS</span>
+              <span class="cen">.</span>
+              <span>Jul 5th '22</span>
+              <h2 class="text-dark small tsize">
+                9 Half-up/half-down Hairstyles for Long and Medium Hair
+              </h2>
+              <h6>Jenny Wilson</h6>
+              <div class="div border-bottom mb-3"></div>
+            </div>
+            <div class="text">
+              <span>BUSINESS</span>
+              <span class="cen">.</span>
+              <span>Jul 5th '22</span>
+              <h2 class="text-dark small tsize">
+                Life Insurance And Pregnancy: A Working Mom’s Guide
+              </h2>
+              <h6>Jenny Wilson</h6>
+              <div class="div border-bottom mb-3"></div>
+            </div>
+            <div class="text">
+              <span>BUSINESS</span>
+              <span class="cen">.</span>
+              <span>Jul 5th '22</span>
+              <h2 class="text-dark small tsize">
+                The Best Homemade Masks for Face (keep the Pimples Away)
+              </h2>
+              <h6>Jenny Wilson</h6>
+              <div class="div border-bottom mb-3"></div>
+            </div>
+            <div class="text">
+              <span>BUSINESS</span>
+              <span class="cen">.</span>
+              <span>Jul 5th '22</span>
+              <h2 class="text-dark small tsize">
+                10 Life-Changing Hacks Every Working Mom Should Know
+              </h2>
+              <h6>Jenny Wilson</h6>
+              <div class="div border-bottom mb-3"></div>
+            </div>
+          </div>
+          <div class="col-lg-9 col-md-12 col-sm-12">
+            <div class="row">
+              <div class="col-lg-9 col-md-12 col-sm-12 btn1">
+                <img
+                  src="https://bootstrapmade.com/demo/templates/ZenBlog/assets/img/post-landscape-3.jpg"
+                  width="100%"
+                  alt=""
+                />
+              </div>
+              <div class="col-lg-3 col-md-12 col-sm-12">
+                <div class="text">
+                  <span>BUSINESS</span>
+                  <span class="cen">.</span>
+                  <span>Jul 5th '22</span>
+                  <h2 class="text-dark small">
+                    What is the son of Football Coach John Gruden, Deuce Gruden
+                    doing Now?
+                  </h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Distinctio placeat exercitationem magni voluptates dolore.
+                    Tenetur fugiat voluptates quas, nobis error deserunt aliquam
+                    temporibus sapiente, laudantium dolorum itaque libero eos
+                    deleniti?
+                  </p>
+                  <div class="d-flex align-items-center">
+                    <div class="pic">
+                      <img
+                        src="https://bootstrapmade.com/demo/templates/ZenBlog/assets/img/person-2.jpg"
+                        width="100%"
+                        alt=""
+                      />
+                    </div>
+                    <div class="name">
+                      <h6 class="ms-3">Wade Warren</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-12 col-sm-12">
+                <div class="photo mt-4">
+                  <img
+                    src="https://bootstrapmade.com/demo/templates/ZenBlog/assets/img/post-landscape-5.jpg"
+                    width="100%"
+                    alt=""
+                  />
+                  <div class="text">
+                    <span>BUSINESS</span>
+                    <span class="cen">.</span>
+                    <span>Jul 5th '22</span>
+                    <h2 class="text-dark small">
+                      11 Work From Home Part-Time Jobs You Can Do Now
+                    </h2>
+                    <h6 class="">Jenny Wilson</h6>
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Vero temporibus repudiandae, inventore pariatur numquam
+                      cumque possimu
+                    </p>
+                    <div class="btn3 border-bottom mb-3"></div>
+                    <div class="text">
+                      <span>BUSINESS</span>
+                      <span class="cen">.</span>
+                      <span>Jul 5th '22</span>
+                      <h2 class="text-dark small">
+                        5 Great Startup Tips for Female Founders
+                      </h2>
+                      <h6 class="">Jenny Wilson</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-9 col-md-12 col-sm-12 btn1 mt-4">
+                <img
+                  src="https://bootstrapmade.com/demo/templates/ZenBlog/assets/img/post-landscape-7.jpg"
+                  width="100%"
+                  alt=""
+                />
+                <div class="text mt-4">
+                  <span>BUSINESS</span>
+                  <span class="cen">.</span>
+                  <span>Jul 5th '22</span>
+                  <h2 class="text-dark small">
+                    How to Avoid Distraction and Stay Focused During Video
+                    Calls?
+                  </h2>
+                  <h6>Jenny Wilson</h6>
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Vero temporibus repudiandae, inventore pariatur numquam
+                    cumque possimus
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- .header 4 -->
+
+    <div class="container-fluid pt-5">
+      <div class="container bl mb-5">
+        <div class="row align-items-center">
+          <div class="col-6 text">
+            <h2 class="mb-1">Lifestyle</h2>
+          </div>
+          <div class="col-6 font text-end mb-1">
+            <span class="border-bottom border-dark p-1">SEE ALL CULTURE</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- card 4 -->
+
+    <div class="container-fluid padding" data-aos="fade-up">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="img">
+              <img
+                src="https://bootstrapmade.com/demo/templates/ZenBlog/assets/img/post-landscape-8.jpg"
+                width="100%"
+                alt=""
+              />
+            </div>
+            <div class="text">
+              <span>LIFESTYLE</span>
+              <span class="cen">.</span>
+              <span>Jul 5th '22</span>
+              <h2 class="text-dark">
+                11 Work From Home Part-Time Jobs You Can Do Now
+              </h2>
+              <p class="mb-4 d-block">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero
+                temporibus repudiandae, inventore pariatur numquam cumque
+                possimus exercitationem? Nihil tempore odit ab minus eveniet
+                praesentium, similique blanditiis molestiae ut saepe
+                perspiciatis officia nemo, eos quae cumque. Accusamus fugiat
+                architecto rerum animi atque eveniet, quo, praesentium
+                dignissimos
+              </p>
+              <div class="d-flex align-items-center">
+                <div class="pic">
+                  <img
+                    src="https://bootstrapmade.com/demo/templates/ZenBlog/assets/img/person-7.jpg"
+                    width="100%"
+                    alt=""
+                  />
+                </div>
+                <div class="name">
+                  <h6 class="ms-3">Esther Howard</h6>
+                </div>
+              </div>
+              <div class="text">
+                <span>lIFESTYLE</span>
+                <span class="cen">.</span>
+                <span>Jul 5th '22</span>
+                <h2 class="text-dark small">
+                  The Best Homemade Masks for Face (keep the Pimples Away)
+                </h2>
+                <h6>Jenny Wilson</h6>
+              </div>
+              <div class="div border-bottom mb-3"></div>
+              <div class="text">
+                <span>lIFESTYLE</span>
+                <span class="cen">.</span>
+                <span>Jul 5th '22</span>
+                <h2 class="text-dark small">
+                  10 Life-Changing Hacks Every Working Mom Should Know
+                </h2>
+                <h6>Jenny Wilson</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-12 col-sm-12">
+            <div class="row">
+              <div class="col-lg-4 col-md-12 col-sm-12 border-start border-end">
+                <div class="photo">
+                  <img
+                    src="https://bootstrapmade.com/demo/templates/ZenBlog/assets/img/post-landscape-2.jpg"
+                    width="100%"
+                    alt=""
+                  />
+                  <div class="text">
+                    <span>SPORT</span>
+                    <span class="cen">.</span>
+                    <span>Jul 5th '22</span>
+                    <h2 class="text-dark small">
+                      Let’s Get Back to Work, New York
+                    </h2>
+                  </div>
+                </div>
+                <div class="photo">
+                  <img
+                    src="https://bootstrapmade.com/demo/templates/ZenBlog/assets/img/post-landscape-5.jpg"
+                    width="100%"
+                    alt=""
+                  />
+                  <div class="text">
+                    <span>FOOD </span>
+                    <span class="cen">.</span>
+                    <span>Jul 5th '22</span>
+                    <h2 class="text-dark small">
+                      How to Avoid Distraction and Stay Focused During Video
+                      Calls?
+                    </h2>
+                  </div>
+                </div>
+                <div class="photo">
+                  <img
+                    src="https://bootstrapmade.com/demo/templates/ZenBlog/assets/img/post-landscape-7.jpg"
+                    width="100%"
+                    alt=""
+                  />
+                  <div class="text">
+                    <span>DESIGN</span>
+                    <span class="cen">.</span>
+                    <span>Jul 5th '22</span>
+                    <h2 class="text-dark small">
+                      Why Craigslist Tampa Is One of The Most Interesting Places
+                      On the Web?
+                    </h2>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="photo">
+                  <img
+                    src="https://bootstrapmade.com/demo/templates/ZenBlog/assets/img/post-landscape-3.jpg"
+                    width="100%"
+                    alt=""
+                  />
+                  <div class="text">
+                    <span>BUSINESS</span>
+                    <span class="cen">.</span>
+                    <span>Jul 5th '22</span>
+                    <h2 class="text-dark small">
+                      6 Easy Steps To Create Your Own Cute Merch For Instagram
+                    </h2>
+                  </div>
+                </div>
+                <div class="photo">
+                  <img
+                    src="https://bootstrapmade.com/demo/templates/ZenBlog/assets/img/post-landscape-6.jpg"
+                    width="100%"
+                    alt=""
+                  />
+                  <div class="text">
+                    <span>TECH</span>
+                    <span class="cen">.</span>
+                    <span>Jul 5th '22</span>
+                    <h2 class="text-dark small">
+                      10 Life-Changing Hacks Every Working Mom Should Know
+                    </h2>
+                  </div>
+                </div>
+                <div class="photo">
+                  <img
+                    src="https://bootstrapmade.com/demo/templates/ZenBlog/assets/img/post-landscape-8.jpg"
+                    width="100%"
+                    alt=""
+                  />
+                  <div class="text">
+                    <span>TRAVEL</span>
+                    <span class="cen">.</span>
+                    <span>Jul 5th '22</span>
+                    <h2 class="text-dark small">
+                      5 Great Startup Tips for Female Founders
+                    </h2>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="text">
+                  <span>TRAVEL</span>
+                  <span class="cen">.</span>
+                  <span>Jul 5th '22</span>
+                  <h2 class="text-dark small">
+                    How to Avoid Distraction and Stay Focused During Video
+                  </h2>
+                  <h6>Jenny Wilson</h6>
+                  <div class="div border-bottom mb-3"></div>
+                  <div class="text">
+                    <span>TRAVEL</span>
+                    <span class="cen">.</span>
+                    <span>Jul 5th '22</span>
+                    <h2 class="text-dark small">
+                      The Best Homemade Masks for Face (keep the Pimples Away)
+                    </h2>
+                    <h6>Jenny Wilson</h6>
+                    <div class="div border-bottom mb-3"></div>
+                  </div>
+                  <div class="text">
+                    <span>TRAVEL</span>
+                    <span class="cen">.</span>
+                    <span>Jul 5th '22</span>
+                    <h2 class="text-dark small">
+                      10 Life-Changing Hacks Every Working Mom Should Know
+                    </h2>
+                    <h6>Jenny Wilson</h6>
+                    <div class="div border-bottom mb-3"></div>
+                  </div>
+                  <div class="text">
+                    <span>TRAVEL</span>
+                    <span class="cen">.</span>
+                    <span>Jul 5th '22</span>
+                    <h2 class="text-dark small">
+                      Life Insurance And Pregnancy: A Working Mom’s Guide
+                    </h2>
+                    <h6>Jenny Wilson</h6>
+                    <div class="div border-bottom mb-3"></div>
+                  </div>
+                  <div class="text">
+                    <span>TRAVEL</span>
+                    <span class="cen">.</span>
+                    <span>Jul 5th '22</span>
+                    <h2 class="text-dark small">
+                      17 Pictures of Medium Length Hair in Layers That Will
+                      Inspire Your New Haircut
+                    </h2>
+                    <h6>Jenny Wilson</h6>
+                    <div class="div border-bottom mb-3"></div>
+                  </div>
+                </div>
+                <div class="text">
+                  <span>TRAVEL</span>
+                  <span class="cen">.</span>
+                  <span>Jul 5th '22</span>
+                  <h2 class="text-dark small">
+                    9 Half-up/half-down Hairstyles for Long and Medium Hair
+                  </h2>
+                  <h6>Jenny Wilson</h6>
+                  <div class="div border-bottom mb-3"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- blackbg -->
+
+    <div class="container-fluid bgblack" data-aos="fade-up">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 col-sm-12 white pe-4">
+            <div class="row">
+              <h5 class="mb-4">About ZenBlog</h5>
+              <p class="mb-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+                ab, perspiciatis beatae autem deleniti voluptate nulla a
+                dolores, exercitationem eveniet libero laudantium recusandae
+                officiis qui aliquid blanditiis omnis quae. Explicabo?
+              </p>
+              <div>
+                <span class="border-bottom border-light p-1">Learn More</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-6 white">
+            <div class="row">
+              <h5 class="mb-4">Navigation</h5>
+              <ul>
+                <li><i class="fa-solid fa-chevron-right me-2 p-2"></i>home</li>
+                <li><i class="fa-solid fa-chevron-right me-2 p-2"></i>blog</li>
+                <li>
+                  <i class="fa-solid fa-chevron-right me-2 p-2"></i>categories
+                </li>
+                <li>
+                  <i class="fa-solid fa-chevron-right me-2 p-2"></i>singal post
+                </li>
+                <li>
+                  <i class="fa-solid fa-chevron-right me-2 p-2"></i>about us
+                </li>
+                <li>
+                  <i class="fa-solid fa-chevron-right me-2 p-2"></i>contact
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-6 white">
+            <div class="row">
+              <h5 class="mb-4">Categories</h5>
+              <ul>
+                <li>
+                  <i class="fa-solid fa-chevron-right me-2 p-2"></i>business
+                </li>
+                <li>
+                  <i class="fa-solid fa-chevron-right me-2 p-2"></i>culture
+                </li>
+                <li>
+                  <i class="fa-solid fa-chevron-right me-2 p-2"></i>sports
+                </li>
+                <li><i class="fa-solid fa-chevron-right me-2 p-2"></i>food</li>
+                <li>
+                  <i class="fa-solid fa-chevron-right me-2 p-2"></i>politics
+                </li>
+                <li>
+                  <i class="fa-solid fa-chevron-right me-2 p-2"></i>celebrity
+                </li>
+                <li>
+                  <i class="fa-solid fa-chevron-right me-2 p-2"></i>startups
+                </li>
+                <li>
+                  <i class="fa-solid fa-chevron-right me-2 p-2"></i>travel
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 col-sm-12 white">
+            <div class="row">
+              <h5 class="mb-4">Resent Posts</h5>
+              <ul class="last">
+                <li class="d-flex align-items-center">
+                  <img
+                    src="https://bootstrapmade.com/demo/templates/ZenBlog/assets/img/post-sq-1.jpg"
+                    class="pe-3"
+                    alt=""
+                  />
+                  <div>
+                    <div class="post d-block">
+                      <span>CULTURE</span>
+                      <span class="cen">.</span>
+                      <span>Jul 5th '22 </span>
+                    </div>
+                    <h6>5 Great Startup Tips for Female Founders</h6>
+                  </div>
+                </li>
+              </ul>
+              <ul class="last">
+                <li class="d-flex align-items-center">
+                  <img
+                    src="https://bootstrapmade.com/demo/templates/ZenBlog/assets/img/post-sq-2.jpg"
+                    class="pe-3"
+                    alt=""
+                  />
+                  <div>
+                    <div class="post d-block">
+                      <span>CULTURE</span>
+                      <span class="cen">.</span>
+                      <span>Jul 5th '22 </span>
+                    </div>
+                    <h6>
+                      What is the son of Football Coach John Gruden, Deuce
+                      Gruden doing Now?
+                    </h6>
+                  </div>
+                </li>
+              </ul>
+              <ul class="last">
+                <li class="d-flex align-items-center">
+                  <img
+                    src="https://bootstrapmade.com/demo/templates/ZenBlog/assets/img/post-sq-3.jpg"
+                    class="pe-3"
+                    alt=""
+                  />
+                  <div>
+                    <div class="post d-block">
+                      <span>CULTURE</span>
+                      <span class="cen">.</span>
+                      <span>Jul 5th '22 </span>
+                    </div>
+                    <h6>Life Insurance And Pregnancy: A Working Mom’s Guide</h6>
+                  </div>
+                </li>
+              </ul>
+              <ul class="last">
+                <li class="d-flex align-items-center">
+                  <img
+                    src="https://bootstrapmade.com/demo/templates/ZenBlog/assets/img/post-sq-4.jpg"
+                    class="pe-3"
+                    alt=""
+                  />
+                  <div>
+                    <div class="post d-block">
+                      <span>CULTURE</span>
+                      <span class="cen">.</span>
+                      <span>Jul 5th '22 </span>
+                    </div>
+                    <h6>
+                      How to Avoid Distraction and Stay Focused During Video
+                      Calls?
+                    </h6>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bgdark">
+      <div class="container">
+        <div class="row d-flex justify-content-between">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="cr">
+              <span
+                ><i class="fa-regular fa-copyright"></i>ZenBlog.All Rights
+                Reserved</span
+              >
+            </div>
+            <div class="down">
+              <span>Designed by</span><strong>BootstrapMade</strong>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 ss">
+            <div class="text-end d-flex justify-content-end">
+              <h6 class="p-1"><i class="fa-brands fa-facebook m-0"></i></h6>
+              <h6 class="p-1"><i class="fa-brands fa-twitter m-0"></i></h6>
+              <h6 class="p-1"><i class="fa-brands fa-instagram m-0"></i></h6>
+              <h6 class="p-1"><i class="fa-brands fa-linkedin m-0"></i></h6>
+              <h6 class="p-1"><i class="fa-solid fa-phone m-0"></i></h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
